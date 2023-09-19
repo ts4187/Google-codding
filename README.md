@@ -1,2 +1,2 @@
 # pj1html
-naver클론 코딩 연습
+google클론 코딩 연습
