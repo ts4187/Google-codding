@@ -1,0 +1,208 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body,
+input,
+button {
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+}
+
+.highlink_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.right_highlink {
+  margin-right: 25px;
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  width: 50%;
+  flex-direction: row;
+}
+
+.left_highlink {
+  margin-left: 25px;
+  flex: 1;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightmenu,
+.leftmenu {
+  font-weight: 300;
+  font-size: 13.5px;
+}
+
+.rightmenu {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+.leftmenu {
+  display: flex;
+  float: left;
+}
+
+.googleinfo,
+.gmail,
+.store,
+.image {
+  padding: 6px;
+  display: inline-block;
+}
+
+.Google_image_container {
+  flex-direction: column;
+  width: 100%;
+  min-height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 290px;
+  height: calc(100% - 560px);
+}
+
+.Google_image_box {
+  max-height: 92px;
+  position: relative;
+  height: 100%;
+  margin-top: auto;
+}
+
+.Google_image {
+  width: 280px;
+}
+
+.search_bar_div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_bar {
+  width: 550px;
+  font-size: 15px;
+  border: 0.5px ridge gray;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.search_bar:hover {
+  box-shadow: 0px 3px 8px rgb(178, 178, 178);
+}
+
+.search_bar:focus {
+  outline: none;
+}
+
+.submit_container {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_submit {
+  appearance: none;
+  background-color: #eff0f4;
+  border: 1px solid #eff0f4;
+  border-radius: 4px;
+  color: #232425;
+  font-family: Apple SD Gothic Neo, arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0px 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search_submit:hover {
+  box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+  background-color: #e3e5e9;
+  border: 1px solid #a3a8ae;
+  color: #171717;
+}
+
+.blank_container {
+  flex-grow: 1;
+}
+
+.bottom_text_container {
+  width: 100%;
+}
+
+.Korea_box,
+.ad_box {
+  background-color: rgb(244, 242, 242);
+}
+
+hr {
+  margin: 0;
+  border-width: 0.1;
+}
+
+.Korea_text {
+  font-weight: 200;
+  font-size: 15px;
+  padding: 15px 30px;
+  color: #171717;
+}
+
+.ad_box {
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* @media 아직 사용법을 잘 모름 screen이 바뀌게 되면 속성값을 변경 시킨다? max-width: 1200px는 저 값을 넘어서면 적용되지 않는다? */
+@media only screen and (max-width: 1200px) {
+  .ad_box {
+    justify-content: space-evenly;
+  }
+}
+
+.ad_a_box_1,
+.ad_a_box_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+a {
+  font-weight: 200;
+  font-size: 15px;
+  padding: 15px;
+}
